@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cxc\\OneDrive\\Documents\\Adobe\\assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{174A0550-58EC-4A20-8217-16727433204E}|assignment2\\assignment2.csproj|c:\\users\\cxc\\onedrive\\documents\\adobe\\assignment2\\assignment2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{174A0550-58EC-4A20-8217-16727433204E}|assignment2\\assignment2.csproj|solutionrelative:assignment2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174A0550-58EC-4A20-8217-16727433204E}|assignment2\\assignment2.csproj|c:\\users\\cxc\\onedrive\\documents\\adobe\\assignment2\\assignment2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174A0550-58EC-4A20-8217-16727433204E}|assignment2\\assignment2.csproj|solutionrelative:assignment2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\cxc\\OneDrive\\Documents\\Adobe\\assignment2\\assignment2\\Form1.cs",
+              "RelativeDocumentMoniker": "assignment2\\Form1.cs",
+              "ToolTip": "C:\\Users\\cxc\\OneDrive\\Documents\\Adobe\\assignment2\\assignment2\\Form1.cs",
+              "RelativeToolTip": "assignment2\\Form1.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAD4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T15:46:58.92Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cxc\\OneDrive\\Documents\\Adobe\\assignment2\\assignment2\\Form1.cs",
+              "RelativeDocumentMoniker": "assignment2\\Form1.cs",
+              "ToolTip": "C:\\Users\\cxc\\OneDrive\\Documents\\Adobe\\assignment2\\assignment2\\Form1.cs [Design]",
+              "RelativeToolTip": "assignment2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T14:12:33.825Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
