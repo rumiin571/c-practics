@@ -1,0 +1,11 @@
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\bin\Debug\studentinformation.exe.config
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\bin\Debug\studentinformation.exe
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\bin\Debug\studentinformation.pdb
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\obj\Debug\studentinformation.csproj.AssemblyReference.cache
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\obj\Debug\studentinformation.Form1.resources
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\obj\Debug\studentinformation.Properties.Resources.resources
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\obj\Debug\studentinformation.csproj.GenerateResource.cache
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\obj\Debug\studentinformation.csproj.CoreCompileInputs.cache
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\obj\Debug\studentinformation.exe
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\obj\Debug\studentinformation.pdb
+C:\Users\cxc\OneDrive\Documents\Adobe\studentinformation\studentinformation\obj\Debug\studentinformation.exe.config
