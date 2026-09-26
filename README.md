@@ -1,99 +1,122 @@
-# C# Programming I
+c# Discourse chapter2
+# Discourse Chapter 2
 
-## Course Information
+# Week 2 - C# Processing Data Practice
 
-| Item | Details |
-|---|---|
-| **Course Title** | C# Programming I |
-| **Department** | Computer Application |
-| **Faculty** | Computer & Information Technology |
-| **University** | Jamhuriya University of Science & Technology |
-| **Academic Year** | 2026 |
-| **Semester** | IV |
-| **Prerequisite** | Introduction Programming |
-| **Course Coordinator** | Yahye Ali Isse |
+## Overview
 
-## Course Description
+This practice demonstrates how to:
 
-C# Programming I introduces students to the fundamentals of C# programming and Windows Forms application development.
+* Create variables to store data
+* Get data from input controls
+* Convert input values into numbers
+* Process data using arithmetic operators
+* Store the calculated result in another variable
+* Display the result using a Label control
 
-## Course Objectives
+---
 
-By the end of this course, students should be able to:
+## 1. Creating Variables
 
-- Understand the fundamentals of C# programming.
-- Apply programming logic and problem-solving techniques.
-- Understand event-driven programming.
-- Develop graphical user interface applications.
-- Work with methods, arrays, lists, and files.
-- Connect C# applications with databases.
-- Develop desktop applications.
+In this step, variables are created to store the data that will be processed.
 
-## Course Content
+For example, two integer variables can be used to store numbers, while another variable stores the result of the calculation.
 
-| Week | Topic | Chapter |
-|---|---|---|
-| Week 1 | Introduction to Visual C# | Chapter 1 |
-| Week 2 | Processing Data | Chapter 2 |
-| Week 3 | Making Decisions | Chapter 3 |
-| Weeks 4–5 | Loops, Files, and Random Numbers | Chapter 4 |
-| Weeks 6–7 | Modularizing Your Code with Methods | Chapter 5 |
-| Weeks 8–9 | Arrays and Lists | Chapter 6 |
-| Weeks 10–11 | ADO.NET | Chapter 7 |
-| Week 12 | Sample Project | — |
-| Weeks 13–14 | Build Desktop Application | Chapter 8 |
+The following code shows how the variables are declared in C#.
 
-## Learning Outcomes
+```csharp
+int Number1, Number2, Result;
+```
 
-After completing the course, students should be able to:
+* `Number1` - stores the first number
+* `Number2` - stores the second number
+* `Result` - stores the result after processing the data
 
-1. Understand Windows and event-driven programming.
-2. Develop GUI applications.
-3. Apply programming logic when solving problems.
-4. Use C# programming structures correctly.
-5. Use methods to organize programs.
-6. Work with arrays and lists.
-7. Connect applications to databases using ADO.NET.
-8. Develop small- to medium-sized Windows applications.
+---
 
-## Course Materials
+## 2. Getting Data from TextBox
 
-### Lectures
+In a Windows Forms application, users can enter data using a `TextBox`.
 
-- Lecture 01 — Introduction to Visual C#
-- Lecture 02 — Processing Data
-- Lecture 03 — Making Decisions
-- Lecture 04 — Loops
-- Lecture 05 — Files and Random Numbers
-- Lecture 06 — Methods
-- Lecture 07 — Arrays and Lists
-- Lecture 08 — ADO.NET
-- Lecture 09 — Desktop Application Development
+Because the `TextBox.Text` property returns a string, the value needs to be converted into an integer before performing mathematical calculations.
 
-## Software Requirements
+For example:
 
-- Visual Studio
-- C#
-- .NET
-- Windows Forms
-- Database Management System
+```csharp
+Number1 = Convert.ToInt32(txtNumber1.Text);
+Number2 = Convert.ToInt32(txtNumber2.Text);
+```
 
-## Course Project
+This converts the values entered by the user into integer numbers.
 
-This repository contains my C# Windows Forms practice project.
+---
 
-### Project Name
-**Student Form**
+## 3. Processing the Data
 
-### Technologies
-- C#
-- Windows Forms
-- Visual Studio
+After receiving the input values, the data can be processed using arithmetic operators.
 
-## Instructor / Coordinator
+For example, two numbers can be added together using the `+` operator:
 
-**Yahye Ali Isse**
+```csharp
+Result = Number1 + Number2;
+```
 
-Department of Computer Application  
-Faculty of Computer & Information Technology  
-Jamhuriya University of Science & Technology
+The result of the calculation is stored in the `Result` variable.
+
+Other arithmetic operators can also be used:
+
+```csharp
+Result = Number1 - Number2;   // Subtraction
+Result = Number1 * Number2;   // Multiplication
+Result = Number1 / Number2;   // Division
+```
+
+---
+
+## 4. Displaying the Result
+
+After processing the data, the result can be displayed using a Label control.
+
+The `.Text` property is used to display the value on the Windows Form.
+
+```csharp
+lblResult.Text = Result.ToString();
+```
+
+`ToString()` converts the integer result into a string so that it can be displayed by the Label.
+
+---
+
+## 5. Example Code
+
+The following example shows a simple C# program that gets two numbers from TextBoxes, processes them, and displays the result.
+
+```csharp
+private void btnCalculate_Click(object sender, EventArgs e)
+{
+    int Number1, Number2, Result;
+
+    Number1 = Convert.ToInt32(txtNumber1.Text);
+    Number2 = Convert.ToInt32(txtNumber2.Text);
+
+    Result = Number1 + Number2;
+
+    lblResult.Text = Result.ToString();
+}
+```
+
+---
+
+## Conclusion
+
+This practice demonstrates the basic process of handling and processing data in C#.
+
+The main steps are:
+
+1. Create variables.
+2. Get data from the user.
+3. Convert the input into the correct data type.
+4. Process the data using operators.
+5. Display the result using a Label control.
+
+
