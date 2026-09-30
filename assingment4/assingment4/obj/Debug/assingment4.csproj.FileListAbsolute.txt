@@ -1,0 +1,10 @@
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\bin\Debug\assingment4.exe.config
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\bin\Debug\assingment4.exe
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\bin\Debug\assingment4.pdb
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\obj\Debug\assingment4.csproj.AssemblyReference.cache
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\obj\Debug\assingment4.Form1.resources
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\obj\Debug\assingment4.Properties.Resources.resources
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\obj\Debug\assingment4.csproj.GenerateResource.cache
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\obj\Debug\assingment4.csproj.CoreCompileInputs.cache
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\obj\Debug\assingment4.exe
+C:\Users\cxc\OneDrive\Music\Desktop\assingment4\assingment4\obj\Debug\assingment4.pdb
